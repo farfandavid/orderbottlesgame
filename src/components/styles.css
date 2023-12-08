@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 5px;
+}
+
+.bottles {
+  display: flex;
+  gap: 10px;
+}
+
+.bottles.hidden {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background: brown;
+}
+
+.hidden>.bottle {
+  display: none;
+}
+
+.bottle {
+  width: 25px;
+  height: 100px;
+  border: 2px solid purple;
+  box-sizing: border-box;
+}
+
+.bottle:active {
+  outline: 2px solid red;
+}
+
+.red {
+  background-color: red;
+}
+
+.white {
+  background: white;
+}
+
+.pink {
+  background: pink;
+}
+
+.green {
+  background: green;
+}
+
+.black {
+  background: #000;
+}
+
+.blue {
+  background: blue;
+}
